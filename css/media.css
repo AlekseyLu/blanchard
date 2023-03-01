@@ -1,0 +1,895 @@
+@media (max-width: 1370px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .header__logo {
+        margin-right: auto;
+    }
+
+    .nav-top {
+        margin-right: 10px;
+        width: 100%;
+    }
+
+    .nav-top__item:not(:last-child) {
+        margin-right: auto;
+    }
+
+    .header__in {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .nav-bottom {
+        margin-right: 20px;
+        width: 100%;
+    }
+
+    .nav-bottom__item:not(:last-child) {
+        margin-right: auto;
+    }
+
+    .event__box {
+        padding: 15px 30px;
+        padding-top: 250px;
+    }
+
+    .event__date {
+        width: 100%;
+        text-align: right;
+    }
+
+    .contacts__form {
+        text-align: center;
+    }
+
+    .form__name,
+    .form__phone {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        padding: 0 50px;
+    }
+
+    /* header */
+    .header__nav-content {
+        justify-content: space-between;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header__logo {
+        margin-right: 0;
+    }
+
+    .nav-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-right: 0px;
+        padding: 100px 45px;
+        padding-bottom: 25px;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+        background-color: #000;
+        transform: translateX(-150%);
+        transition: transform .3s ease-in-out;
+    }
+
+    .nav-top.open-nav {
+        transform: translateX(0);
+    }
+
+    .nav-top__list {
+        flex-direction: column;
+        height: 100%;
+        overflow: auto;
+    }
+
+    .nav-top__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .nav-top__item:last-child {
+        display: block;
+        margin-top: auto;
+        margin-right: auto;
+    }
+
+    .header__in {
+        display: none;
+    }
+
+    .header__in-mobile {
+        display: flex;
+    }
+
+    .header__nav-bottom {
+        display: none;
+    }
+
+    .wrap-box {
+        overflow: hidden;
+    }
+
+    .header__btn-search {
+        display: block;
+    }
+
+    .search-input:focus-visible {
+        outline: none;
+    }
+
+    .search-input:focus {
+        border-color: #9D5CD0;
+    }
+
+    .search-input {
+        margin-right: 5px;
+        padding: 5px 15px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+    }
+
+    .search-close {
+        cursor: pointer;
+    }
+
+    .header__search-wrap {
+        display: flex;
+    }
+
+    /* hero */
+
+    .hero {
+        margin-top: 0;
+    }
+
+    .hero__box {
+        padding-top: 105px;
+        padding-bottom: 137px;
+        padding-left: 50px;
+    }
+
+    .hero__title {
+        margin-bottom: -10px;
+    }
+
+    .hero__text {
+        max-width: 675px;
+    }
+
+    .hero__text {
+        margin-bottom: 155px;
+    }
+
+    /* gellary */
+    .gellary__box {
+        width: 330px;
+    }
+
+    .gellary-slider {
+        height: 315px;
+    }
+
+    .gellary__content {
+        margin-bottom: 35px;
+    }
+
+    .gellary__content:first-child {
+        margin-bottom: 0;
+    }
+
+    .modal__box {
+        width: 594px;
+    }
+
+    /* catalog */
+    .catalog__content {
+        width: 48%;
+    }
+
+    .gellary__content:first-child {
+        margin-bottom: 41px;
+    }
+
+    .catalog__content:last-child {
+        width: 48%;
+    }
+
+    .catalog__slide-box {
+        margin-right: 50px;
+    }
+
+    .ac-text:first-child {
+        height: 435px;
+    }
+
+    /* event */
+    .event {
+        padding-bottom: 77px;
+    }
+
+    .event__container {
+        padding: 0;
+    }
+
+    .event-swiper {
+        margin-bottom: 31px;
+        height: 680px;
+    }
+
+    .event-button-prev,
+    .event-button-next {
+        display: none;
+    }
+
+    .event__content {
+        background-size: 115%;
+    }
+
+    .event__box {
+        padding: 15px 32px;
+        padding-top: 210px;
+        padding-bottom: 47px;
+    }
+
+    .event__box-date {
+        margin-bottom: 5px;
+        text-align: right;
+    }
+
+    .event__lead {
+        margin-bottom: 7px;
+    }
+
+    .event-pagination {
+        display: block;
+    }
+
+    /* project */
+
+    .project-swiper {
+        max-width: 820px;
+        height: 130px;
+    }
+
+    .project-button-prev,
+    .project-button-next {
+        top: 40%;
+    }
+
+    .project-button-next {
+        right: 0;
+    }
+
+    .project-button-prev {
+        left: 0;
+    }
+
+    /* contacts */
+    .contacts__list {
+        display: block;
+        padding: 42px 0;
+    }
+
+    .contacts__showroom {
+        margin-bottom: 30px;
+    }
+
+    .showroom__title {
+        margin-bottom: 10px;
+    }
+
+    .showroom__adress {
+        display: block;
+        margin-bottom: 13px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .contacts__form {
+        margin-bottom: 15px;
+        text-align: initial;
+    }
+
+    .form__box {
+        margin-right: 18px;
+    }
+
+    .form__btn {
+        padding: 12px 40px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer__link svg {
+        display: block;
+        width: 59px;
+        height: 59px;
+    }
+}
+
+@media (max-width: 992px) {
+    .event__box {
+        padding-top: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* header */
+    .header__search-wrap {
+        top: 0;
+        right: 41px;
+        left: 41px;
+        align-items: center;
+        height: 98px;
+        transform: translateY(-200%);
+    }
+
+    .header__search-wrap.search-open {
+        transform: translateY(0);
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    /* gellary */
+    .gellary__container {
+        flex-wrap: wrap;
+    }
+
+    .gellary__box {
+        width: 280px;
+    }
+
+    .gellary__filter {
+        margin-bottom: 41px;
+    }
+
+    .gellary__box-right {
+        width: 100%;
+    }
+
+    .gellary__button-box {
+        padding-top: 5px;
+    }
+
+    .gellary-slider {
+        height: 330px;
+    }
+
+    .modal__box {
+        width: 668px;
+    }
+
+    /* catalog */
+    .catalog__text {
+        margin-bottom: 24px;
+    }
+
+    .catalog__box {
+        flex-wrap: wrap-reverse
+    }
+
+    .catalog__slide-box {
+        margin-right: 0;
+    }
+
+    .catalog__content {
+        width: 100%;
+    }
+
+    .catalog__content:last-child {
+        margin-bottom: 48px;
+        width: 100%;
+    }
+
+    .ac-text:first-child {
+        height: 335px;
+    }
+
+    .catalog__photo {
+        margin-bottom: 21px;
+    }
+
+    .catalog__data {
+        margin-bottom: 6px;
+    }
+
+    /* event */
+    .event__content {
+        background-size: 106%;
+    }
+
+    .event__box {
+        padding: 15px 15px 43px 32px;
+        padding-top: 215px;
+    }
+
+    .swiper-slide:nth-child(1) .event__lead,
+    .event__lead {
+        max-width: 240px;
+        margin-bottom: 4px;
+    }
+
+    .event__text {
+        max-width: 240px;
+    }
+
+    /* project */
+    .project {
+        padding-bottom: 80px;
+    }
+
+    .project__text {
+        margin-bottom: 0;
+        max-width: 660px;
+    }
+
+    .project__link::before {
+        content: 'blanchard-art.ru';
+    }
+
+    .project__lead {
+        margin-bottom: 30px;
+    }
+
+    .project-swiper {
+        padding: 2px;
+        max-width: 560px;
+        height: 107px;
+    }
+
+    .project-button-prev,
+    .project-button-next {
+        top: 35%;
+    }
+
+    /* contacts */
+    .contacts__form {
+        margin-bottom: 30px;
+    }
+
+    .form__box {
+        margin-right: 0;
+    }
+
+    .form__name {
+        margin-right: 15px;
+    }
+
+    .form__name,
+    .form__phone {
+        margin-bottom: 7px;
+        width: 324px;
+    }
+
+    .form__btn {
+        padding: 12px 30px;
+    }
+}
+
+@media (max-width: 624px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* header */
+    .header__nav-top {
+        padding: 9px 0;
+    }
+
+    .burger {
+        width: 25px;
+    }
+
+    .burger__line {
+        width: 16px;
+    }
+
+    .burger__line::before {
+        width: 25px;
+        transform: translateY(-8px);
+    }
+
+    .burger__line::after {
+        width: 10px;
+        transform: translateY(7px);
+    }
+
+    .header__logo {
+        width: 95px;
+    }
+
+    .header__btn-search svg {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .header__search-wrap {
+        padding: 0 15px;
+        right: 0;
+        left: 0;
+        height: 50px;
+    }
+
+    /* hero */
+    .hero__box {
+        padding-top: 32px;
+        padding-bottom: 58px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .hero__title {
+        margin-bottom: 0;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+    }
+
+    .hero__text {
+        margin: 0 auto;
+        margin-bottom: 55px;
+        max-width: 265px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .hero__btn {
+        padding: 11px 19px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /* about */
+    .about {
+        padding-top: 50px;
+        padding-bottom: 42px;
+    }
+
+    .about__title {
+        margin-bottom: 11px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .about__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* gellary */
+    .gellary {
+        padding-top: 50px;
+        padding-bottom: 48px;
+    }
+
+    .gellary__title {
+        margin-bottom: 13px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .gellary__box {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .gellary__lead {
+        margin-bottom: 4px;
+    }
+
+    .gellary__filter {
+        margin-bottom: 31px;
+    }
+
+    .gellary__box-right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .gellary__content:first-child {
+        margin-bottom: 29px;
+    }
+
+    .gellary__content:last-child {
+        margin-bottom: 30px;
+    }
+
+    .gellary-slider {
+        margin-bottom: 15px;
+        height: 367px;
+    }
+
+    .gellary__button-box {
+        margin: 0 auto;
+    }
+
+    .swiper-pagination-current,
+    .swiper-pagination-total {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .modal__box {
+        flex-direction: column;
+        max-width: 290px;
+        height: 600px;
+    }
+
+    .modal__img {
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .modal__container {
+        padding: 17px;
+    }
+
+    .modal__date {
+        margin-bottom: 12px;
+    }
+
+    /* catalog */
+    .catalog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .catalog__title {
+        margin-bottom: 13px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .catalog__text {
+        display: none;
+    }
+
+    .ac .ac-header {
+        padding: 20px 0;
+    }
+
+    .ac-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .ac-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ac .ac-panel .ac-text {
+        height: 807px;
+    }
+
+    .catalog__suptitle {
+        margin-bottom: 6px;
+    }
+
+    .catalog__data {
+        margin-bottom: 15px;
+    }
+
+    /* event */
+    .event {
+        padding-bottom: 48px;
+    }
+
+    .event__title {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .event__content {
+        background-size: 116%;
+    }
+
+    .event__box {
+        padding-top: 75%;
+        padding-bottom: 48px;
+        padding-left: 23px;
+    }
+
+    .event__box-date {
+        margin-bottom: 10px;
+    }
+
+    .swiper-slide:nth-child(1) .event__lead::before {
+        content: 'Книжная гравюра в восприятии';
+    }
+
+    .event__text {
+        max-width: 230px;
+    }
+
+    .event__link {
+        padding-left: 5px;
+    }
+
+    .event-swiper {
+        margin-bottom: 19px;
+        height: 684px;
+    }
+
+    /* project */
+    .project {
+        padding-bottom: 7px;
+        border-bottom: none;
+    }
+
+    .project__title {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .project__text {
+        margin-bottom: 53px;
+        max-width: 400px;
+    }
+
+    .project__link {
+        padding: 0;
+    }
+
+    .project__link::before {
+        content: 'blanchard-art.ru/projects/about';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .project__lead {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .project__content {
+        padding: 0 50px;
+    }
+
+    .project-swiper {
+        padding: 0;
+        max-width: 100%;
+        height: 65px;
+    }
+
+    .project-button-prev,
+    .project-button-next {
+        top: 26%;
+    }
+
+    /* contacts */
+    .contacts__list {
+        padding-bottom: 20px;
+    }
+
+    .contacts__showroom {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .showroom__title {
+        margin-bottom: 6px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .showroom__adress {
+        margin-bottom: 19px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .contacts__form {
+        margin-bottom: 22px;
+    }
+
+    .form__name {
+        margin-bottom: 20px;
+    }
+
+    .form__name,
+    .form__phone {
+        padding: 12px 24px;
+        width: 100%;
+    }
+
+    .form__phone {
+        margin-bottom: 20px;
+    }
+
+    .form__btn {
+        padding: 10px 34px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .form__btn::before {
+        content: 'Заказать';
+    }
+
+    .contacts__social-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .social__item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .social__link svg {
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+
+    /* map */
+    .map {
+        height: 320px;
+    }
+
+    /* footer */
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer__cotent {
+        flex-direction: column-reverse;
+    }
+
+    .footer__logo {
+        width: 96px;
+    }
+
+    .footer__list {
+        margin-bottom: 17px;
+    }
+
+    .footer__link svg {
+        width: 50px;
+        height: 50px;
+    }
+}
